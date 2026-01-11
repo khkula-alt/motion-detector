@@ -43,22 +43,16 @@ Code Snippet
 
 here’s a quick example of how motion is detected:
 
+```python
 import cv2
-
 import time
-
 import numpy as np
-
 import winsound
 
 cap = cv2.VideoCapture(0)
-
 fgbg = cv2.createBackgroundSubtractorMOG2()
-
 last_center = None
-
 last_time = None
-
 
 while True:
     ret, frame = cap.read()
@@ -78,6 +72,9 @@ while True:
         last_center = center
         last_time = time.time()
         winsound.Beep(1000, 300)  # alert
+```
+
+
 
 
 the full code is in main.py.
