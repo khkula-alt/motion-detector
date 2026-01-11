@@ -44,14 +44,21 @@ Code Snippet
 here’s a quick example of how motion is detected:
 
 import cv2
+
 import time
+
 import numpy as np
+
 import winsound
 
 cap = cv2.VideoCapture(0)
+
 fgbg = cv2.createBackgroundSubtractorMOG2()
+
 last_center = None
+
 last_time = None
+
 
 while True:
     ret, frame = cap.read()
