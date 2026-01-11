@@ -1,28 +1,38 @@
 Motion Detector 🚨
+
 a Python project for real-time motion detection using a webcam with alert functionality. detects movement, calculates object speed, and triggers a beep alert when motion is detected.
 
 Features
+
 detects motion in real-time using a webcam
+
 calculates object speed in pixels per second
+
 alerts user with a beep sound when motion is detected
+
 displays live video feed with bounding boxes and speed overlay
 
 Installation
+
 1.clone the repository:
 git clone https://github.com/your-username/motion-detector.git
+
 2.navigate to the project folder:
 cd motion-detector
+
 3.install dependencies:
 pip install opencv-python numpy
 ⚠ Note: winsound is included in Windows by default.
 
 Usage
+
 run the main Python file:
 python main.py
 press ESC to exit the program.
 the video feed window will show detected motion, object speed, and alerts when motion is detected.
 
 Code Snippet
+
 here’s a quick example of how motion is detected:
 
 import cv2
@@ -58,11 +68,11 @@ while True:
 the full code is in main.py.
 
 Contributing
+
 Ccontributions are welcome! feel free to submit pull requests or issues to improve this project.
 
 License
+
 this project is licensed under the MIT License.
 
-License
 
-This project is licensed under the MIT License.
