@@ -77,7 +77,8 @@ while True:
 
 
 
-the full code is in main.py.
+Run the full code in [main.py](main.py)
+
 
 
 Contributing
