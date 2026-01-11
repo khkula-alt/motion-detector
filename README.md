@@ -19,7 +19,7 @@ displays live video feed with bounding boxes and speed overlay
 Installation
 
 1.clone the repository:
-git clone https://github.com/your-username/motion-detector.git
+git clone https://github.com/khkula-alt/motion-detector.git
 
 2.navigate to the project folder:
 cd motion-detector
